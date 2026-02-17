@@ -1,0 +1,532 @@
+{
+  "materials": [
+    { "id": "alolan_electric_rat_tail", "name": "Alolan Electric Rat Tail" },
+    { "id": "bagworm_green_leaves", "name": "Bagworm Green Leaves" },
+    { "id": "bagworm_pink_leaves", "name": "Bagworm Pink Leaves" },
+    { "id": "bagworm_stone", "name": "Bagworm Stone" },
+    { "id": "balloon_arm", "name": "Balloon Arm" },
+    { "id": "bear_arm", "name": "Bear Arm" },
+    { "id": "big_boss_hat", "name": "Big Boss Hat" },
+    { "id": "big_eagle_feather", "name": "Big Eagle Feather" },
+    { "id": "big_ice_ball", "name": "Big Ice Ball" },
+    { "id": "big_mount_horn", "name": "Big Mount Horn" },
+    { "id": "black_lucky_charm", "name": "Black Lucky Charm" },
+    { "id": "black_wool_ball", "name": "Black Wool Ball" },
+    { "id": "blade_horn", "name": "Blade Horn" },
+    { "id": "brown_ear", "name": "Brown Ear" },
+    { "id": "brutal_fin", "name": "Brutal Fin" },
+    { "id": "catfish_tail", "name": "Catfish Tail" },
+    { "id": "continent_thorn", "name": "Continent Thorn" },
+    { "id": "corrupted_black_hull", "name": "Corrupted Black Hull" },
+    { "id": "corrupted_champion_belt", "name": "Corrupted Champion Belt" },
+    { "id": "corrupted_cloud", "name": "Corrupted Cloud" },
+    { "id": "corrupted_cow_tail", "name": "Corrupted Cow Tail" },
+    { "id": "corrupted_doll_star", "name": "Corrupted Doll Star" },
+    { "id": "corrupted_feather", "name": "Corrupted Feather" },
+    { "id": "corrupted_gem_star", "name": "Corrupted Gem Star" },
+    { "id": "corrupted_ice_orb", "name": "Corrupted Ice Orb" },
+    { "id": "corrupted_ice_piece", "name": "Corrupted Ice Piece" },
+    { "id": "corrupted_lizard_tail", "name": "Corrupted Lizard Tail" },
+    { "id": "corrupted_magnet", "name": "Corrupted Magnet" },
+    { "id": "corrupted_miss_trace", "name": "Corrupted Miss Trace" },
+    { "id": "corrupted_pinsir_horn", "name": "Corrupted Pinsir Horn" },
+    { "id": "corrupted_poisonous_tail", "name": "Corrupted Poisonous Tail" },
+    { "id": "corrupted_pot_of_lava", "name": "Corrupted Pot Of Lava" },
+    { "id": "corrupted_pot_of_moss_bug", "name": "Corrupted Pot Of Moss Bug" },
+    { "id": "corrupted_scizor_claw", "name": "Corrupted Scizor Claw" },
+    { "id": "corrupted_steelix_tail", "name": "Corrupted Steelix Tail" },
+    { "id": "corrupted_streak_tail", "name": "Corrupted Streak Tail" },
+    { "id": "corrupted_tree_branch", "name": "Corrupted Tree Branch" },
+    { "id": "corrupted_venom_flute", "name": "Corrupted Venom Flute" },
+    { "id": "corrupted_vines", "name": "Corrupted Vines" },
+    { "id": "curly_pig_tail", "name": "Curly Pig Tail" },
+    { "id": "dragon_wings", "name": "Dragon Wings" },
+    { "id": "eel_remains", "name": "Eel Remains" },
+    { "id": "elefish_fin", "name": "Elefish Fin" },
+    { "id": "electric_fish_tail", "name": "Electric Fish Tail" },
+    { "id": "emperor_trident", "name": "Emperor Trident" },
+    { "id": "fire_monkey_hair", "name": "Fire Monkey Hair" },
+    { "id": "flame_tail", "name": "Flame Tail" },
+    { "id": "frosty_hand", "name": "Frosty Hand" },
+    { "id": "gear_nose", "name": "Gear Nose" },
+    { "id": "gleam_tail", "name": "Gleam Tail" },
+    { "id": "green_hair", "name": "Green Hair" },
+    { "id": "hoodlum_crest", "name": "Hoodlum Crest" },
+    { "id": "ice_crystal", "name": "Ice Crystal" },
+    { "id": "lovely_topknot", "name": "Lovely Topknot" },
+    { "id": "mach_nail", "name": "Mach Nail" },
+    { "id": "mole_big_hair", "name": "Mole Big Hair" },
+    { "id": "mole_hair", "name": "Mole Hair" },
+    { "id": "mount_horn", "name": "Mount Horn" },
+    { "id": "nightmare_ore", "name": "Nightmare Ore" },
+    { "id": "petite_leaves", "name": "Petite Leaves" },
+    { "id": "piece_of_blimp", "name": "Piece Of Blimp" },
+    { "id": "pig_ear", "name": "Pig Ear" },
+    { "id": "psychic_mustache", "name": "Psychic Mustache" },
+    { "id": "razor_claw", "name": "Razor Claw" },
+    { "id": "red_spike", "name": "Red Spike" },
+    { "id": "remains_of_gears", "name": "Remains Of Gears" },
+    { "id": "royal_tail", "name": "Royal Tail" },
+    { "id": "sand_pouch", "name": "Sand Pouch" },
+    { "id": "savage_fin", "name": "Savage Fin" },
+    { "id": "shed_scale", "name": "Shed Scale" },
+    { "id": "small_bird_beak", "name": "Small Bird Beak" },
+    { "id": "small_eagle_feather", "name": "Small Eagle Feather" },
+    { "id": "solid_head", "name": "Solid Head" },
+    { "id": "toxic_gosme", "name": "Toxic Gosme" },
+    { "id": "virtual_tail", "name": "Virtual Tail" },
+    { "id": "white_hair", "name": "White Hair" }
+  ],
+  "recipes": [
+    {
+      "id": "dark_stone_tyranitar",
+      "name": "Dark Stone (Tyranitar)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_lizard_tail", "quantity": 25 },
+        { "materialId": "corrupted_tree_branch", "quantity": 8 },
+        { "materialId": "corrupted_black_hull", "quantity": 5 },
+        { "materialId": "black_wool_ball", "quantity": 5 },
+        { "materialId": "mach_nail", "quantity": 1 },
+        { "materialId": "bagworm_stone", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "devilish_costume_luxray",
+      "name": "Devilish Costume (Luxray)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_magnet", "quantity": 32 },
+        { "materialId": "dragon_wings", "quantity": 8 },
+        { "materialId": "corrupted_gem_star", "quantity": 8 },
+        { "materialId": "lovely_topknot", "quantity": 1 },
+        { "materialId": "gleam_tail", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "battle_armor_costume_manectric",
+      "name": "Battle Armor Costume (Manectric)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "black_lucky_charm", "quantity": 24 },
+        { "materialId": "mole_hair", "quantity": 20 },
+        { "materialId": "gear_nose", "quantity": 2 },
+        { "materialId": "razor_claw", "quantity": 1 },
+        { "materialId": "mount_horn", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "tribal_blanket_costume_piloswine",
+      "name": "Tribal Blanket Costume (Piloswine)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_ice_orb", "quantity": 25 },
+        { "materialId": "white_hair", "quantity": 23 },
+        { "materialId": "pig_ear", "quantity": 10 },
+        { "materialId": "big_ice_ball", "quantity": 10 },
+        { "materialId": "bagworm_pink_leaves", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "toxic_barrel_muk",
+      "name": "Toxic Barrel (Muk)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "toxic_gosme", "quantity": 15 },
+        { "materialId": "corrupted_poisonous_tail", "quantity": 15 },
+        { "materialId": "corrupted_venom_flute", "quantity": 14 },
+        { "materialId": "corrupted_scizor_claw", "quantity": 5 },
+        { "materialId": "remains_of_gears", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "evil_horns_glalie",
+      "name": "Evil Horns (Glalie)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_ice_piece", "quantity": 24 },
+        { "materialId": "corrupted_ice_orb", "quantity": 20 },
+        { "materialId": "ice_crystal", "quantity": 14 },
+        { "materialId": "frosty_hand", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "tribal_props_mantine",
+      "name": "Tribal Props (Mantine)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_streak_tail", "quantity": 25 },
+        { "materialId": "savage_fin", "quantity": 20 },
+        { "materialId": "small_bird_beak", "quantity": 15 },
+        { "materialId": "brutal_fin", "quantity": 1 },
+        { "materialId": "catfish_tail", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "dark_hood_gallade",
+      "name": "Dark Hood (Gallade)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "black_wool_ball", "quantity": 20 },
+        { "materialId": "corrupted_champion_belt", "quantity": 11 },
+        { "materialId": "pig_ear", "quantity": 5 },
+        { "materialId": "corrupted_cloud", "quantity": 5 },
+        { "materialId": "blade_horn", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "mechanical_eye_raichu",
+      "name": "Mechanical Eye (Raichu)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_magnet", "quantity": 21 },
+        { "materialId": "electric_fish_tail", "quantity": 2 },
+        { "materialId": "alolan_electric_rat_tail", "quantity": 2 },
+        { "materialId": "remains_of_gears", "quantity": 1 },
+        { "materialId": "mount_horn", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "toxic_fluid_sudowoodo",
+      "name": "Toxic Fluid (Sudowoodo)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_tree_branch", "quantity": 15 },
+        { "materialId": "corrupted_poisonous_tail", "quantity": 10 },
+        { "materialId": "corrupted_venom_flute", "quantity": 10 },
+        { "materialId": "toxic_gosme", "quantity": 9 },
+        { "materialId": "corrupted_lizard_tail", "quantity": 5 },
+        { "materialId": "solid_head", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "graveyard_costume_torterra",
+      "name": "Graveyard Costume (Torterra)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "petite_leaves", "quantity": 32 },
+        { "materialId": "bagworm_green_leaves", "quantity": 10 },
+        { "materialId": "sand_pouch", "quantity": 10 },
+        { "materialId": "continent_thorn", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "devilish_costume_togetic",
+      "name": "Devilish Costume (Togetic)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "small_bird_beak", "quantity": 20 },
+        { "materialId": "corrupted_poisonous_tail", "quantity": 15 },
+        { "materialId": "corrupted_pinsir_horn", "quantity": 14 },
+        { "materialId": "lovely_topknot", "quantity": 10 },
+        { "materialId": "razor_claw", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "inexpressive_mask_exeggutor",
+      "name": "Inexpressive Mask (Exeggutor)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "petite_leaves", "quantity": 35 },
+        { "materialId": "green_hair", "quantity": 12 },
+        { "materialId": "corrupted_ice_piece", "quantity": 10 },
+        { "materialId": "fire_monkey_hair", "quantity": 10 },
+        { "materialId": "red_spike", "quantity": 10 }
+      ]
+    },
+    {
+      "id": "green_flame_infernape",
+      "name": "Green Flame (Infernape)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_pot_of_lava", "quantity": 16 },
+        { "materialId": "corrupted_champion_belt", "quantity": 10 },
+        { "materialId": "bear_arm", "quantity": 8 },
+        { "materialId": "bagworm_green_leaves", "quantity": 5 },
+        { "materialId": "flame_tail", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "moss_stone_rhydon",
+      "name": "Moss Stone (Rhydon)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "sand_pouch", "quantity": 25 },
+        { "materialId": "corrupted_pot_of_moss_bug", "quantity": 15 },
+        { "materialId": "bagworm_green_leaves", "quantity": 15 },
+        { "materialId": "petite_leaves", "quantity": 15 },
+        { "materialId": "corrupted_vines", "quantity": 15 }
+      ]
+    },
+    {
+      "id": "devilish_costume_empoleon",
+      "name": "Devilish Costume (Empoleon)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_doll_star", "quantity": 10 },
+        { "materialId": "corrupted_steelix_tail", "quantity": 8 },
+        { "materialId": "gear_nose", "quantity": 1 },
+        { "materialId": "brutal_fin", "quantity": 1 },
+        { "materialId": "emperor_trident", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "evil_jaw_steelix",
+      "name": "Evil Jaw (Steelix)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_steelix_tail", "quantity": 20 },
+        { "materialId": "corrupted_magnet", "quantity": 20 },
+        { "materialId": "dragon_wings", "quantity": 10 },
+        { "materialId": "corrupted_scizor_claw", "quantity": 5 },
+        { "materialId": "big_mount_horn", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "evil_claws_grumpig",
+      "name": "Evil Claws (Grumpig)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "curly_pig_tail", "quantity": 20 },
+        { "materialId": "psychic_mustache", "quantity": 10 },
+        { "materialId": "pig_ear", "quantity": 6 },
+        { "materialId": "razor_claw", "quantity": 1 },
+        { "materialId": "bagworm_pink_leaves", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "possessive_star_starmie",
+      "name": "Possessive Star (Starmie)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_gem_star", "quantity": 25 },
+        { "materialId": "savage_fin", "quantity": 11 },
+        { "materialId": "virtual_tail", "quantity": 10 },
+        { "materialId": "corrupted_streak_tail", "quantity": 10 },
+        { "materialId": "catfish_tail", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "bone_keeper_costume_alakazam",
+      "name": "Bone Keeper Costume (Alakazam)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "psychic_mustache", "quantity": 20 },
+        { "materialId": "curly_pig_tail", "quantity": 4 },
+        { "materialId": "corrupted_tree_branch", "quantity": 4 },
+        { "materialId": "royal_tail", "quantity": 1 },
+        { "materialId": "remains_of_gears", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "ghost_pirate_costume_crawdaunt",
+      "name": "Ghost Pirate Costume (Crawdaunt)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_miss_trace", "quantity": 22 },
+        { "materialId": "corrupted_magnet", "quantity": 15 },
+        { "materialId": "mole_hair", "quantity": 10 },
+        { "materialId": "corrupted_streak_tail", "quantity": 10 },
+        { "materialId": "gear_nose", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "bird_anklet_pidgeot",
+      "name": "Bird Anklet (Pidgeot)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "small_bird_beak", "quantity": 24 },
+        { "materialId": "corrupted_feather", "quantity": 20 },
+        { "materialId": "corrupted_cow_tail", "quantity": 10 },
+        { "materialId": "brown_ear", "quantity": 10 },
+        { "materialId": "mole_big_hair", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "witch_hat_misdreavus",
+      "name": "Witch Hat (Misdreavus)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_doll_star", "quantity": 15 },
+        { "materialId": "corrupted_miss_trace", "quantity": 15 },
+        { "materialId": "corrupted_cloud", "quantity": 15 },
+        { "materialId": "corrupted_poisonous_tail", "quantity": 9 }
+      ]
+    },
+    {
+      "id": "samedi_costume_honchkrow",
+      "name": "Samedi Costume (Honchkrow)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "black_wool_ball", "quantity": 15 },
+        { "materialId": "brown_ear", "quantity": 13 },
+        { "materialId": "corrupted_lizard_tail", "quantity": 10 },
+        { "materialId": "big_boss_hat", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "voodoo_line_banette",
+      "name": "Voodoo Line (Banette)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "black_wool_ball", "quantity": 15 },
+        { "materialId": "corrupted_doll_star", "quantity": 15 },
+        { "materialId": "corrupted_vines", "quantity": 13 },
+        { "materialId": "mount_horn", "quantity": 2 },
+        { "materialId": "royal_tail", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "spiky_shell_torkoal",
+      "name": "Spiky Shell (Torkoal)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_pot_of_lava", "quantity": 26 },
+        { "materialId": "corrupted_black_hull", "quantity": 15 },
+        { "materialId": "fire_monkey_hair", "quantity": 15 },
+        { "materialId": "corrupted_streak_tail", "quantity": 10 },
+        { "materialId": "razor_claw", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "witch_hat_ninetales",
+      "name": "Witch Hat (Ninetales)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_pot_of_lava", "quantity": 30 },
+        { "materialId": "black_wool_ball", "quantity": 27 },
+        { "materialId": "white_hair", "quantity": 15 },
+        { "materialId": "pig_ear", "quantity": 10 },
+        { "materialId": "royal_tail", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "infernal_skull_houndoom",
+      "name": "Infernal Skull (Houndoom)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_pot_of_lava", "quantity": 26 },
+        { "materialId": "fire_monkey_hair", "quantity": 21 },
+        { "materialId": "corrupted_black_hull", "quantity": 10 },
+        { "materialId": "bagworm_stone", "quantity": 1 },
+        { "materialId": "big_mount_horn", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "evil_angel_costume_ursaring",
+      "name": "Evil Angel Costume (Ursaring)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "black_wool_ball", "quantity": 15 },
+        { "materialId": "nightmare_ore", "quantity": 8 },
+        { "materialId": "bear_arm", "quantity": 14 },
+        { "materialId": "corrupted_cloud", "quantity": 10 },
+        { "materialId": "corrupted_cow_tail", "quantity": 10 },
+        { "materialId": "mole_big_hair", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "gas_mask_costume_eelektross",
+      "name": "Gas Mask Costume (Eelektross)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 1500,
+      "ingredients": [
+        { "materialId": "corrupted_magnet", "quantity": 20 },
+        { "materialId": "elefish_fin", "quantity": 15 },
+        { "materialId": "electric_fish_tail", "quantity": 3 },
+        { "materialId": "eel_remains", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "bad_boy_costume_scrafty",
+      "name": "Bad Boy Costume (Scrafty)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 7500,
+      "ingredients": [
+        { "materialId": "black_wool_ball", "quantity": 150 },
+        { "materialId": "brown_ear", "quantity": 65 },
+        { "materialId": "corrupted_champion_belt", "quantity": 65 },
+        { "materialId": "blade_horn", "quantity": 2 },
+        { "materialId": "flame_tail", "quantity": 2 },
+        { "materialId": "shed_scale", "quantity": 1 },
+        { "materialId": "hoodlum_crest", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "lantern_festival_drifblim",
+      "name": "Lantern Festival (Drifblim)",
+      "level": 100,
+      "craftTime": "3 dias",
+      "stylePoints": 7500,
+      "ingredients": [
+        { "materialId": "small_eagle_feather", "quantity": 100 },
+        { "materialId": "big_eagle_feather", "quantity": 65 },
+        { "materialId": "corrupted_miss_trace", "quantity": 65 },
+        { "materialId": "corrupted_doll_star", "quantity": 65 },
+        { "materialId": "big_boss_hat", "quantity": 2 },
+        { "materialId": "balloon_arm", "quantity": 1 },
+        { "materialId": "piece_of_blimp", "quantity": 3 }
+      ]
+    }
+  ]
+}

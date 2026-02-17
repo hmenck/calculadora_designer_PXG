@@ -1,6 +1,7 @@
 # Calculadora Designer Workshop PokeXGames
 
 Ferramenta desenvolvida para facilitar o cálculo do custo de fabricação de itens dentro do jogo PokeXGames.
+Acesso disponível em: [https://calculadora-designer-pxg.vercel.app/](https://calculadora-designer-pxg.vercel.app/)_
 
 ## Sobre o Projeto
 Essa calculadora foi planejada inicialmente para uso próprio, com o objetivo de facilitar a compra de itens para os crafts dentro do jogo. O projeto foi expandido para desenvolver minhas habilidades em programação, gerando essa primeira versão que já cumpre o objetivo inicial, mas com muitas oportunidades de melhorias futuras.
